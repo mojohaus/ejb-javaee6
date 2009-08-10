@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<archetype-descriptor id="ejb-jee6" partial="false" name="JEE6 ejb jar archetype">
+<archetype-descriptor id="ejb-javaee6" partial="false" name="JavaEE6 ejb jar archetype">
   <fileSets>
     <fileSet filtered="true" packaged="false">
       <directory>src/main/resources</directory>

@@ -5,7 +5,7 @@
   <artifactId>${artifactId}</artifactId>
   <packaging>ejb</packaging>
   <version>${version}</version>
-  <name>${artifactId} JEE6 EJB</name>
+  <name>${artifactId} Java EE 6 EJB</name>
   <url>http://maven.apache.org</url>
   <dependencies>
 
