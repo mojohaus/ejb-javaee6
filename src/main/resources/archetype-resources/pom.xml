@@ -48,7 +48,7 @@
                If you don't make use of these new updated API, you can delete the parameter and the plugin's dependencies.
                On MacOSX, you will need to change the java's rt.jar to classes.jar-->
           <compilerArguments>
-              <bootclasspath>${settings.localRepository}/javax/xml/bind/jaxb-api-osgi/2.2/jaxb-api-osgi-2.2.jar:${settings.localRepository}/javax/xml/webservices-api-osgi/2.0-b23/webservices-api-osgi-2.0-b23.jar:${java.home}/lib/rt.jar</bootclasspath>
+              <bootclasspath>${settings.localRepository}/javax/xml/bind/jaxb-api-osgi/2.2/jaxb-api-osgi-2.2.jar${path.separator}${settings.localRepository}/javax/xml/webservices-api-osgi/2.0-b23/webservices-api-osgi-2.0-b23.jar${path.separator}${java.home}/lib/rt.jar</bootclasspath>
           </compilerArguments>
         </configuration>
         <dependencies>
