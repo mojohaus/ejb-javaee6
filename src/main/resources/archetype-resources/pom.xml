@@ -8,7 +8,7 @@
     <version>${version}</version>
     <packaging>ejb</packaging>
 
-    <name>${artifactId} EJB</name>
+    <name>${artifactId}</name>
 
     <properties>
         <endorsed.dir>${D}{project.build.directory}/endorsed</endorsed.dir>
@@ -81,7 +81,6 @@
                 </executions>
             </plugin>
         </plugins>
-        <finalName>${artifactId}</finalName>
     </build>
 
 </project>
